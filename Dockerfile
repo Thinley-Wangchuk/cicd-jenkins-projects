@@ -1,7 +1,7 @@
 FROM openjdk:17-oracle
 
 
-EXPOSE 8086
+EXPOSE 8080
 
 
 ADD target/docker-jenkins-integration-sample.jar docker-jenkins-integration-sample.jar
